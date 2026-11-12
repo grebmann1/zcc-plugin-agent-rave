@@ -1,0 +1,43 @@
+{
+  "name": "@zcc-ext/agent-rave",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "zcc": ">=1.0.0",
+    "zccPluginSdk": ">=0.1.0",
+    "node": ">=22.13.0"
+  },
+  "zcc": {
+    "name": "Agent Rave",
+    "description": "Your agents, after hours. A Three.js warehouse club with your Spotify on the decks. Open Agents \u2192 Rave.",
+    "branding": {
+      "icon": "Disc3"
+    },
+    "server": "./server.mjs",
+    "app": "./app.js"
+  },
+  "scripts": {
+    "build": "zcc plugin build .",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "26.6.1",
+    "@types/react": "^19.0.0",
+    "@types/three": "0.181.0",
+    "jsdom": "^26.1.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "vitest": "^4.1.10",
+    "@vitest/coverage-v8": "^4.1.10",
+    "typescript": "^5.9.0",
+    "@types/react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "three": "0.181.2"
+  },
+  "license": "MIT"
+}

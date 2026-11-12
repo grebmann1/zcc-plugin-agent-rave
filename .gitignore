@@ -1,0 +1,7 @@
+/node_modules/
+/coverage/
+/*.map
+/preview/bundle.js
+/verification/artifacts/
+*.tgz
+.DS_Store

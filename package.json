@@ -39,5 +39,13 @@
   "dependencies": {
     "three": "0.181.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grebmann1/zcc-plugin-agent-rave.git"
+  },
+  "homepage": "https://github.com/grebmann1/zcc-plugin-agent-rave#readme",
+  "bugs": {
+    "url": "https://github.com/grebmann1/zcc-plugin-agent-rave/issues"
+  }
 }
